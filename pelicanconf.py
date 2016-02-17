@@ -34,6 +34,9 @@ DEFAULT_PAGINATION = 10
 #THEME = 'pelican-themes/dopetrope'
 THEME = 'pelican-themes/chunk'
 
+PLUGIN_PATH = 'pelican-plugins'
+
+PLUGINS = ['render_math']
 
 
 # Uncomment following line if you want document-relative URLs when developing
